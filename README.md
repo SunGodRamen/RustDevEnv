@@ -17,7 +17,7 @@ docker build --build-arg UID=$(id -u) --build-arg GID=$(id -g) -t rust-dev .</co
   <p>This will build a Docker container with the name <code>rustdev</code> that you can use for Rust development.</p>
 
   <p>To start the container, run the following command:</p>
-  <pre><div class="bg-black mb-4 rounded-md"><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-ruby">docker run -it -v <span class="hljs-variable">$(</span>pwd)<span class="hljs-symbol">:/app</span> rustdev </code></div></div></pre>
+  <pre><div class="bg-black mb-4 rounded-md"><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-ruby">docker run -it -v <span class="hljs-variable">$(</span>pwd)<span class="hljs-symbol">:/app</span> rust-dev </code></div></div></pre>
 
   <p>This will start the Docker container and mount the current directory as a volume inside the container, so you can
     edit Rust files using Neovim and save them to your local filesystem.</p>
