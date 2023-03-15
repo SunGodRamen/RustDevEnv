@@ -1,0 +1,60 @@
+{
+  "languageserver": {
+    "rust": {
+      "command": "rust-analyzer",
+      "args": ["--stdio"],
+      "rootPatterns": ["Cargo.toml", "rust-project.json", ".git"],
+      "filetypes": ["rust"],
+      "initializationOptions": {
+        "provideParentProcessId": true
+      }
+    }
+  },
+  "suggest.noselect": true,
+  "suggest.minTriggerInputLength": 3,
+  "suggest.enablePreview": true,
+  "suggest.detailField": "menu",
+  "suggest.triggerAfterInsertEnter": false,
+  "suggest.triggerAfterInsertLeave": false,
+  "suggest.triggerAfterInsertTab": false,
+  "suggest.triggerAfterInsertSpace": true,
+  "suggest.triggerAfterInsertComma": true,
+  "suggest.triggerAfterInsertDot": true,
+  "suggest.triggerAfterInsertSlash": true,
+  "suggest.triggerAfterInsertBackslash": true,
+  "suggest.triggerAfterInsertColon": true,
+  "suggest.triggerAfterInsertSemicolon": true,
+  "suggest.triggerAfterInsertLeftParen": true,
+  "suggest.triggerAfterInsertRightParen": true,
+  "suggest.triggerAfterInsertLeftBracket": true,
+  "suggest.triggerAfterInsertRightBracket": true,
+  "suggest.triggerAfterInsertLeftBrace": true,
+  "suggest.triggerAfterInsertRightBrace": true,
+  "suggest.snippetIndicator": "~",
+  "suggest.maxPreviewWidth": 60,
+  "suggest.maxItemCount": 100,
+  "suggest.timeout": 2000,
+  "suggest.diagnosticsEnable": true,
+  "suggest.completionCategoryNames": {
+    "text": "Text",
+    "method": "Method",
+    "function": "Function",
+    "constructor": "Constructor",
+    "field": "Field",
+    "variable": "Variable",
+    "class": "Class",
+    "interface": "Interface",
+    "module": "Module",
+    "property": "Property",
+    "unit": "Unit",
+    "value": "Value",
+    "enum": "Enum",
+    "keyword": "Keyword",
+    "snippet": "Snippet",
+    "color": "Color",
+    "file": "File",
+    "reference": "Reference",
+    "folder": "Folder",
+    "typeParameter": "Type Parameter"
+  }
+}
