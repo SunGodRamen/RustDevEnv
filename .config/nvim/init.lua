@@ -1,3 +1,5 @@
+vim.api.nvim_echo({{"init.lua is being run!", "Normal"}}, true, {})
+
 -- Load packer.nvim
 vim.cmd [[packadd packer.nvim]]
 local packer = require('packer')
